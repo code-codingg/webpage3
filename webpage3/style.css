@@ -1,0 +1,67 @@
+body {
+  background-image: url("1.jpg");
+  /* width: 1000px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  background-color: ;
+}
+nav {
+}
+ul {
+  list-style: none;
+  overflow: auto;
+  margin-left: 700px;
+}
+li {
+  float: left;
+  margin: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 20%;
+  background-color: white;
+}
+
+li:hover {
+  color: hotpink;
+  border: 2px solid hotpink;
+  cursor: pointer;
+  background-color: ;
+}
+
+.belowheader {
+  background-color: white;
+  width: 30%;
+  height: 280px;
+  border: 2px solid black;
+  padding: 30px auto;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: hotpink;
+  font-size: 40px;
+}
+
+input {
+  color: black;
+  font-size: 10px;
+  padding: 6px;
+  margin: 5px;
+}
+input[type="password"] {
+}
+button {
+  color: white;
+  font-size: 14px;
+  padding: 6px;
+  background-color: hotpink;
+  border: 2px solid white;
+  border-radius: 20%;
+}
+form {
+  text-align: center;
+}
